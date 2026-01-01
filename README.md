@@ -12,15 +12,15 @@
 3.   List the topics:
 
 
-    curl -s -X GET 'http://localhost:8082/v3/clusters/rgfnzs2RS3O65A7VSpNatg/topics' |jq '.data[].attributes.topic_name'
-    "__confluent.support.metrics"
-    "_confluent-ksql-confluent_rmoff_01_command_topic"
-    "_kafka-connect-01-configs"
-    "_kafka-connect-01-offsets"
-    "_kafka-connect-01-status"
-    "_schemas"
-    "confluent_rmoff_01ksql_processing_log"
-    "ratings"
+         curl -s -X GET 'http://localhost:8082/v3/clusters/rgfnzs2RS3O65A7VSpNatg/topics' |jq '.data[].attributes.topic_name'
+          "__confluent.support.metrics"
+          "_confluent-ksql-confluent_rmoff_01_command_topic"
+          "_kafka-connect-01-configs"
+          "_kafka-connect-01-offsets"
+          "_kafka-connect-01-status"
+          "_schemas"
+          "confluent_rmoff_01ksql_processing_log"
+          "ratings"
 
 
 4.  Create the topic:
