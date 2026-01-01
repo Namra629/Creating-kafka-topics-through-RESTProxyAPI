@@ -1,4 +1,4 @@
-# Creating-kafka-topics-through-RESTProxyAPI\
+# Creating-kafka-topics-through-RESTProxyAPI
 
 1. Get the cluster-id:
 
